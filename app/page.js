@@ -80,7 +80,7 @@ export default function LoginPage() {
         </div>
 
         <div className="text-center mt-4">
-          <a href="/admin" className="text-xs text-gray-400 hover:text-gray-600">管理者ページへ →</a>
+          <a href="/admin/login" className="text-xs text-gray-400 hover:text-gray-600">管理者ページへ →</a>
         </div>
       </div>
     </div>
