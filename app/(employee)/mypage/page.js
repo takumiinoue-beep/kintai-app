@@ -46,7 +46,7 @@ export default function MyPage() {
       <div className="flex gap-2 overflow-x-auto">
         {months.map(m => (
           <button key={m} onClick={() => setMonth(m)}
-            className={`text-sm px-3 py-1.5 rounded-lg font-medium whitespace-nowrap transition-colors ${month === m ? 'bg-indigo-600 text-white' : 'bg-white text-gray-600 border border-gray-200'}`}>
+            className={`text-sm px-3 py-1.5 rounded-lg font-medium whitespace-nowrap transition-colors ${month === m ? 'bg-green-600 text-white' : 'bg-white text-gray-600 border border-gray-200'}`}>
             {m.replace('-', '年')}月
           </button>
         ))}
@@ -74,7 +74,7 @@ export default function MyPage() {
               </div>
               <div className="flex justify-between py-2 pt-2">
                 <span className="font-bold text-gray-900">支給合計（概算）</span>
-                <span className="font-bold text-indigo-700 text-lg">{fmt(summary?.totalPay)}</span>
+                <span className="font-bold text-green-700 text-lg">{fmt(summary?.totalPay)}</span>
               </div>
             </div>
           </div>

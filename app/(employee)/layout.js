@@ -28,7 +28,7 @@ export default function EmployeeLayout({ children }) {
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', background: '#f4f6fb', fontFamily: 'sans-serif' }}>
       {/* ヘッダー */}
-      <header style={{ background: '#1e3a8a', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 32px', height: 52 }}>
+      <header style={{ background: '#1a3328', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 32px', height: 52 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 32 }}>
           <span style={{ fontWeight: 700, fontSize: 16, letterSpacing: 1 }}>勤怠管理</span>
           <nav style={{ display: 'flex', gap: 0 }}>

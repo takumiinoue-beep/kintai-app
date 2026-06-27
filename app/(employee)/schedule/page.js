@@ -202,9 +202,9 @@ export default function SchedulePage() {
             <div style={{ display: 'flex', gap: 8, marginBottom: 20 }}>
               <button onClick={() => setFormCategory('shift')} style={{
                 flex: 1, padding: '8px', borderRadius: 6, fontSize: 14, fontWeight: 500, cursor: 'pointer', border: '1px solid',
-                background: formCategory === 'shift' ? '#1e3a8a' : 'white',
+                background: formCategory === 'shift' ? '#16a34a' : 'white',
                 color: formCategory === 'shift' ? 'white' : '#374151',
-                borderColor: formCategory === 'shift' ? '#1e3a8a' : '#e5e7eb',
+                borderColor: formCategory === 'shift' ? '#16a34a' : '#e5e7eb',
               }}>シフト申請</button>
               <button onClick={() => setFormCategory('correction')} style={{
                 flex: 1, padding: '8px', borderRadius: 6, fontSize: 14, fontWeight: 500, cursor: 'pointer', border: '1px solid',
@@ -256,7 +256,7 @@ export default function SchedulePage() {
                 </button>
                 <button type="submit" disabled={saving}
                   style={{ flex: 1, padding: '10px', border: 'none', borderRadius: 6, fontSize: 14, fontWeight: 600, cursor: 'pointer',
-                    background: formCategory === 'correction' ? '#c2410c' : '#1e3a8a', color: 'white', opacity: saving ? 0.6 : 1 }}>
+                    background: formCategory === 'correction' ? '#c2410c' : '#16a34a', color: 'white', opacity: saving ? 0.6 : 1 }}>
                   {saving ? '送信中...' : '申請する'}
                 </button>
               </div>

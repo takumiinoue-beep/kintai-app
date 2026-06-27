@@ -36,10 +36,10 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-50 to-slate-100 p-4">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-green-50 to-slate-100 p-4">
       <div className="w-full max-w-sm">
         <div className="text-center mb-8">
-          <div className="flex justify-center mb-4"><svg width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="#1e3a8a" strokeWidth="2"/><path d="M24 14v10l6 4" stroke="#1e3a8a" strokeWidth="2" strokeLinecap="round"/></svg></div>
+          <div className="flex justify-center mb-4"><svg width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="#1a3328" strokeWidth="2"/><path d="M24 14v10l6 4" stroke="#1a3328" strokeWidth="2" strokeLinecap="round"/></svg></div>
           <h1 className="text-2xl font-bold text-gray-900">勤怠管理</h1>
           <p className="text-sm text-gray-500 mt-1">従業員番号とPINでログイン</p>
         </div>

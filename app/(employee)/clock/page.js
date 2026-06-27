@@ -103,7 +103,7 @@ export default function ClockPage() {
             disabled={loading || hasClockedIn}
             style={{
               padding: '12px 48px', fontSize: 16, fontWeight: 600, borderRadius: 6, border: 'none', cursor: hasClockedIn ? 'default' : 'pointer',
-              background: hasClockedIn ? '#e5e7eb' : '#1e3a8a', color: hasClockedIn ? '#9ca3af' : 'white', transition: 'background 0.15s',
+              background: hasClockedIn ? '#e5e7eb' : '#16a34a', color: hasClockedIn ? '#9ca3af' : 'white', transition: 'background 0.15s',
               minWidth: 140,
             }}
           >出勤</button>
@@ -133,7 +133,7 @@ export default function ClockPage() {
             )}
             {hasClockedOut && (
               <div style={{ fontSize: 13, color: '#6b7280' }}>
-                実働：<span style={{ color: '#1e3a8a', fontWeight: 600 }}>{fmtMin(record.work_minutes)}</span>
+                実働：<span style={{ color: '#16a34a', fontWeight: 600 }}>{fmtMin(record.work_minutes)}</span>
               </div>
             )}
           </div>
@@ -163,7 +163,7 @@ export default function ClockPage() {
                   <td style={{ padding: '12px 24px', color: '#374151' }}>{r.work_date}</td>
                   <td style={{ padding: '12px 16px', textAlign: 'center', color: '#111827', fontVariantNumeric: 'tabular-nums' }}>{formatTime(r.clock_in)}</td>
                   <td style={{ padding: '12px 16px', textAlign: 'center', color: '#111827', fontVariantNumeric: 'tabular-nums' }}>{formatTime(r.clock_out)}</td>
-                  <td style={{ padding: '12px 24px', textAlign: 'right', color: '#1e3a8a', fontWeight: 500 }}>{fmtMin(r.work_minutes)}</td>
+                  <td style={{ padding: '12px 24px', textAlign: 'right', color: '#16a34a', fontWeight: 500 }}>{fmtMin(r.work_minutes)}</td>
                 </tr>
               ))}
             </tbody>

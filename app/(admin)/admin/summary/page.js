@@ -44,7 +44,7 @@ export default function AdminSummary() {
       <div className="flex items-center gap-4 mb-4">
         <input type="month" className="input w-auto" value={month} onChange={e => setMonth(e.target.value)} />
         <div className="text-sm text-gray-600">
-          人件費合計：<span className="font-bold text-indigo-700 text-base">{fmt(totalPay)}</span>
+          人件費合計：<span className="font-bold text-green-700 text-base">{fmt(totalPay)}</span>
         </div>
       </div>
 
@@ -62,7 +62,7 @@ export default function AdminSummary() {
                 <th className="px-4 py-3 text-right font-semibold text-gray-600">基本給</th>
                 <th className="px-4 py-3 text-right font-semibold text-gray-600">残業手当</th>
                 <th className="px-4 py-3 text-right font-semibold text-gray-600">深夜割増</th>
-                <th className="px-4 py-3 text-right font-semibold text-gray-600 text-indigo-700">合計</th>
+                <th className="px-4 py-3 text-right font-semibold text-gray-600 text-green-700">合計</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
@@ -86,12 +86,12 @@ export default function AdminSummary() {
                   <td className="px-4 py-3 text-right text-gray-700">{fmt(summary?.basePay)}</td>
                   <td className="px-4 py-3 text-right text-orange-600">{fmt(summary?.overtimePay)}</td>
                   <td className="px-4 py-3 text-right text-purple-600">{fmt(summary?.lateNightPay)}</td>
-                  <td className="px-4 py-3 text-right font-bold text-indigo-700">{fmt(summary?.totalPay)}</td>
+                  <td className="px-4 py-3 text-right font-bold text-green-700">{fmt(summary?.totalPay)}</td>
                 </tr>
               ))}
               <tr className="bg-gray-50 border-t-2 border-gray-300">
                 <td colSpan={7} className="px-4 py-3 font-bold text-gray-700 text-right">合計</td>
-                <td className="px-4 py-3 text-right font-bold text-indigo-700 text-base">{fmt(totalPay)}</td>
+                <td className="px-4 py-3 text-right font-bold text-green-700 text-base">{fmt(totalPay)}</td>
               </tr>
             </tbody>
           </table>
