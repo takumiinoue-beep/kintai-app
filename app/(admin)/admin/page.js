@@ -30,7 +30,7 @@ export default function AdminTop() {
                 onMouseLeave={e => e.currentTarget.style.boxShadow = 'none'}
               >
                 <div style={{ width: 40, height: 40, borderRadius: 10, background: '#f0fdf4', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 12 }}>
-                  <Icon size={20} color="#1a3328" strokeWidth={1.75} />
+                  <Icon size={20} color="#2d6a4f" strokeWidth={1.75} />
                 </div>
                 <div style={{ fontWeight: 600, color: '#111827', fontSize: 15 }}>{item.label}</div>
                 <div style={{ fontSize: 12, color: '#6b7280', marginTop: 4 }}>{item.desc}</div>
