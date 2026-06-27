@@ -24,7 +24,7 @@ export default function AdminLayout({ children }) {
   }
 
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', background: '#f4f6fb', fontFamily: 'sans-serif' }}>
+    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', background: '#ffffff', fontFamily: 'sans-serif' }}>
       <header style={{ background: '#16a34a', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 32px', height: 52 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
           <span style={{ fontWeight: 700, fontSize: 16 }}>勤怠管理</span>
