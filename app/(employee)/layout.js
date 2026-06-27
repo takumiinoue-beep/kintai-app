@@ -26,7 +26,7 @@ export default function EmployeeLayout({ children }) {
   ]
 
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', background: #ffffff, fontFamily: 'sans-serif' }}>
+    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', background: '#ffffff', fontFamily: 'sans-serif' }}>
       {/* ヘッダー */}
       <header style={{ background: '#2d6a4f', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 32px', height: 52 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 32 }}>

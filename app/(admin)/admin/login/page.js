@@ -30,7 +30,7 @@ export default function AdminLogin() {
   }
 
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: #ffffff }}>
+    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#ffffff' }}>
       <div style={{ width: '100%', maxWidth: 360, padding: 16 }}>
         <div style={{ textAlign: 'center', marginBottom: 32 }}>
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 12 }}><svg width="48" height="48" viewBox="0 0 48 48" fill="none"><rect x="10" y="22" width="28" height="20" rx="4" stroke="#2d6a4f" strokeWidth="2"/><path d="M16 22v-6a8 8 0 0116 0v6" stroke="#2d6a4f" strokeWidth="2" strokeLinecap="round"/><circle cx="24" cy="32" r="2.5" fill="#2d6a4f"/></svg></div>
