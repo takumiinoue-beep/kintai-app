@@ -11,7 +11,12 @@ export default function AdminEmployees() {
 
   async function loadEmployees() {
     const res = await fetch('/api/employees')
-    setEmployees(await res.json())
+    const data = await res.json()
+    if (Array.isArray(data)) {
+      setEmployees(data)
+    } else {
+      setMsg('エラー: ' + (data?.error || JSON.stringify(data)))
+    }
   }
 
   function startEdit(emp) {
